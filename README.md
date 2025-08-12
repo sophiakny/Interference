@@ -5,16 +5,39 @@ It includes modules for data analysis, visualization, and hardware control (came
 
 ## Project Structure
 
-interference.py # Main script to run full analysis
-Fourier_transformer.py # Functions for Fourier transform and plotting
-camera.py # camera functions
-Thorlabsmotor.py # Controls motor movements
-intencity.txt intencity_0808.txt positions.txt positions_0808.txt# Experimental datasets
+- `interference.py`
+
+  Main script to run full analysis
+- `Fourier_transformer.py`
+
+  Functions for Fourier transform and plotting
+
+- camera.py
+  
+  camera functions
+- Thorlabsmotor.py
+
+  Controls motor movements
+- intencity.txt
+
+  intencity_0808.txt
+  
+  positions.txt
+  
+  positions_0808.txt
+  
+  Experimental datasets
 
 ## Installation 
 pip install -r requirements.txt
+
 dlls for Thorlab camera and Thorlab step motor 
 
 ## Usage 
-python interference.py # running measurements and creating graphs with results 
-python Fourier_transformer.py # creating graphs using ready data 
+1. python interference.py
+  
+   running measurements and creating graphs with results 
+
+2. python Fourier_transformer.py 
+
+   creating graphs using ready data
