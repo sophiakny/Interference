@@ -34,10 +34,10 @@ pip install -r requirements.txt
 dlls for Thorlab camera and Thorlab step motor 
 
 ## Usage 
-1. python interference.py
+1. `python interference.py`
   
    running measurements and creating graphs with results 
 
-2. python Fourier_transformer.py 
+2. `python Fourier_transformer.py `
 
    creating graphs using ready data
