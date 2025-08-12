@@ -12,10 +12,10 @@ It includes modules for data analysis, visualization, and hardware control (came
 
   Functions for Fourier transform and plotting
 
-- camera.py
+- `camera.py`
   
   camera functions
-- Thorlabsmotor.py
+- `Thorlabsmotor.py`
 
   Controls motor movements
 - intencity.txt
